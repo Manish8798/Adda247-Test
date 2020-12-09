@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<Adda247> call, Response<Adda247> response) {
                 if (response.isSuccessful()){
-                    Toast.makeText(MainActivity.this, "Error1", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Testing", Toast.LENGTH_SHORT).show();
                     Log.d("RES_CALL","Successful");
                     Adda247 adda247 = response.body();
                     assert adda247 != null;
